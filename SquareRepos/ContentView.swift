@@ -4,13 +4,14 @@
 //
 //  Created by Vishal Patel on 2021-06-04.
 //
+// Single Screen View
+
 
 import SwiftUI
-import Foundation
 
 struct ContentView: View {
     @ObservedObject var fetchData = FetchData()
-
+    
     var body: some View {
         NavigationView{
             List(fetchData.repos) { repo in
@@ -33,9 +34,12 @@ struct ContentView: View {
             }
            .navigationTitle("Square Repositories")
         }
+        //If URL gives an error, the error will be shown at the bottom of the screen.
+        if let text = fetchData.text {
+            Text("(" + text + ")")
+        }
     }
 }
-
 
 
 struct ContentView_Previews: PreviewProvider {

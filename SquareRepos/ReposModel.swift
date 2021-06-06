@@ -14,6 +14,3 @@ struct ReposModel: Codable, Identifiable {
     public var description: String?
 }
 
-
-//https://api.github.com/orgs/square/repos
-//http://localhost:8080/crosscpp/toolbox/test

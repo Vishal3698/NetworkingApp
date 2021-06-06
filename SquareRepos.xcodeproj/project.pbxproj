@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF26934B266C9873008C252A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FFB87595266B1E90001E4000 /* SquareRepos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareRepos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB87598266B1E90001E4000 /* SquareReposApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareReposApp.swift; sourceTree = "<group>"; };
 		FFB8759A266B1E90001E4000 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +41,7 @@
 		FFB8758C266B1E90001E4000 = {
 			isa = PBXGroup;
 			children = (
+				FF26934B266C9873008C252A /* README.md */,
 				FFB87597266B1E90001E4000 /* SquareRepos */,
 				FFB87596266B1E90001E4000 /* Products */,
 			);
